@@ -1,6 +1,3 @@
-import MoonIcon from './moon.svg';
-import SunIcon from './sun.svg';
+import FrontEndImg from "./img/card-front-end.png";
 
-export {
-    MoonIcon, SunIcon
-};
+export { FrontEndImg };
