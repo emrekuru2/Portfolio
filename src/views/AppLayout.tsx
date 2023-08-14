@@ -6,7 +6,7 @@ import { pageChangeAnim } from "../utils";
 export const AppLayout = () => {
   return (
     <div className="flex h-screen flex-col items-center bg-neutral p-4 lg:flex-row">
-      <div className="fixed z-10 h-20 lg:h-full">
+      <div className="fixed z-10 flex h-20 items-center justify-center lg:h-full">
         <Sidebar />
       </div>
       <motion.div
@@ -18,7 +18,6 @@ export const AppLayout = () => {
       >
         <div className="h-full overflow-auto">
           <Outlet />
-          <hr />
           <Footer />
         </div>
       </motion.div>
