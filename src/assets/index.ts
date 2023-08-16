@@ -1,3 +1,22 @@
-import FrontEndImg from "./img/card-front-end.png";
+import React from "./svg/React.svg";
+import Angular from "./svg/Angular.svg";
+import Cpp from "./svg/Cpp.svg";
+import Python from "./svg/Python.svg";
+import Java from "./svg/Java.svg";
+import MySQL from "./svg/MySQL.svg";
+import PHP from "./svg/Php.svg";
+import TypeScript from "./svg/TypeScript.svg";
 
-export { FrontEndImg };
+export const LocalAssets = {
+  Images: {},
+  Icons: {
+    React,
+    Angular,
+    Python,
+    Cpp,
+    Java,
+    MySQL,
+    PHP,
+    TypeScript,
+  },
+};

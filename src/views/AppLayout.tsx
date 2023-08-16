@@ -11,10 +11,7 @@ export const AppLayout = () => {
       </div>
       <motion.div
         className="h-full w-full rounded bg-base-100 p-2 max-lg:mt-8 max-lg:pt-8 lg:ml-8 "
-        variants={pageChangeAnim()}
-        initial="initial"
-        animate="animate"
-        exit="exit"
+        {...pageChangeAnim()}
       >
         <div className="h-full overflow-auto">
           <Outlet />
