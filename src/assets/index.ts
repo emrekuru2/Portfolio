@@ -6,9 +6,12 @@ import Java from "./svg/Java.svg";
 import MySQL from "./svg/MySQL.svg";
 import PHP from "./svg/PHP.svg";
 import TypeScript from "./svg/TypeScript.svg";
+import Avatar from "./img/Avatar.jpg";
 
 export const LocalAssets = {
-  Images: {},
+  Images: {
+    Avatar,
+  },
   Icons: {
     React,
     Angular,
