@@ -10,7 +10,7 @@ import { NavLink } from "react-router-dom";
 import { ROUTES } from "../utils";
 
 const defaultLinkStyle =
-  "btn btn-circle lg:btn-lg border-4 border-base-content hover:bg-primary";
+  "btn btn-circle lg:btn-lg border-4 border-primary/50 hover:bg-primary-focus/75";
 
 export const Sidebar = () => {
   const html = document.documentElement;
@@ -36,10 +36,13 @@ export const Sidebar = () => {
   };
 
   return (
-    <div className="flex h-full items-center justify-evenly gap-2 rounded-full border-8 border-neutral bg-accent px-2 lg:h-96 lg:flex-col lg:gap-0">
-      <div className="tooltip-primary tooltip" data-tip="Change Theme">
+    <div className="flex h-full items-center justify-evenly gap-2 rounded-full border-8 border-neutral bg-base-200 px-2 lg:h-96 lg:flex-col lg:gap-0">
+      <div
+        className="tooltip-primary tooltip tooltip-bottom lg:tooltip-right"
+        data-tip="Change Theme"
+      >
         <label
-          className="btn btn-circle swap swap-rotate border-4 border-base-content lg:btn-lg hover:bg-primary"
+          className={`swap swap-rotate ${defaultLinkStyle}`}
           aria-label="theme-switch"
         >
           <input onClick={() => handleThemeChange()} type="checkbox" />
@@ -51,12 +54,15 @@ export const Sidebar = () => {
           </span>
         </label>
       </div>
-      <div className="tooltip-primary tooltip" data-tip="Landing page">
+      <div
+        className="tooltip-primary tooltip tooltip-bottom lg:tooltip-right"
+        data-tip="Landing page"
+      >
         <NavLink
           to={ROUTES.landing}
           aria-label="Landing"
           className={({ isActive }) =>
-            isActive ? defaultLinkStyle + " bg-secondary/75" : defaultLinkStyle
+            isActive ? defaultLinkStyle + " bg-secondary/50" : defaultLinkStyle
           }
         >
           <span className="swap-off h-10 w-10 p-2">
@@ -64,12 +70,15 @@ export const Sidebar = () => {
           </span>
         </NavLink>
       </div>
-      <div className="tooltip-primary tooltip" data-tip="About page">
+      <div
+        className="tooltip-primary tooltip tooltip-bottom lg:tooltip-right"
+        data-tip="About page"
+      >
         <NavLink
           to={ROUTES.about}
           aria-label="About"
           className={({ isActive }) =>
-            isActive ? defaultLinkStyle + " bg-secondary/75" : defaultLinkStyle
+            isActive ? defaultLinkStyle + " bg-secondary/50" : defaultLinkStyle
           }
         >
           <span className="swap-off h-10 w-10 p-2">
@@ -77,12 +86,15 @@ export const Sidebar = () => {
           </span>
         </NavLink>
       </div>
-      <div className="tooltip-primary tooltip" data-tip="Projects page">
+      <div
+        className="tooltip-primary tooltip tooltip-bottom lg:tooltip-right"
+        data-tip="Projects page"
+      >
         <NavLink
           to={ROUTES.projects}
           aria-label="Projects"
           className={({ isActive }) =>
-            isActive ? defaultLinkStyle + " bg-secondary/75" : defaultLinkStyle
+            isActive ? defaultLinkStyle + " bg-secondary/50" : defaultLinkStyle
           }
         >
           <span className="swap-off h-10 w-10 p-2">
