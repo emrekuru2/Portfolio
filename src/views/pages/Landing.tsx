@@ -1,7 +1,6 @@
 import { Hero, SkillSlider } from "../../components";
 import { LocalAssets } from "../../assets";
 import { Link } from "react-router-dom";
-import { ROUTES } from "../../utils";
 
 export const Landing = () => {
   return (
@@ -33,10 +32,7 @@ export const Landing = () => {
               my portfolio, a space where ideas come alive through the magic of
               programming!
             </p>
-            <Link
-              to={ROUTES.about}
-              className="btn btn-primary btn-outline w-36"
-            >
+            <Link to="/about" className="btn btn-primary btn-outline w-36">
               More Details
             </Link>
           </div>

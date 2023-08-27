@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { LocalAssets } from "../assets";
-import { skillSliderAnim } from "../utils";
 
 type BadgeProps = {
   icon: string;
@@ -30,7 +29,14 @@ const TechStack = (props: StackProps) => {
   return (
     <motion.div
       className="absolute flex"
-      {...skillSliderAnim(props.x_start, props.x_end)}
+      animate={{
+        x: [props.x_start, props.x_end],
+      }}
+      transition={{
+        duration: 35,
+        repeat: Infinity,
+        ease: "linear",
+      }}
     >
       <TechBadge
         icon={LocalAssets.Icons.React}
