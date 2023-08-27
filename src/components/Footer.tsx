@@ -3,8 +3,8 @@ import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa6";
 
 export const Footer = () => {
   return (
-    <footer className="footer mx-auto flex h-auto p-2 lg:w-[75%]">
-      <div className="grow">
+    <footer className="footer mx-auto flex h-auto flex-col items-center p-2 lg:w-[75%] lg:flex-row">
+      <div className="lg:grow">
         <p>© 2023 Emre Kuru - All rights reserved</p>
       </div>
       <div className="grid-flow-col gap-4">

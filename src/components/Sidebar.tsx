@@ -7,7 +7,6 @@ import {
   FaHammer,
 } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
-import { ROUTES } from "../utils";
 
 const defaultLinkStyle =
   "btn btn-circle lg:btn-lg border-4 border-primary/50 hover:bg-primary-focus/75";
@@ -59,7 +58,7 @@ export const Sidebar = () => {
         data-tip="Landing page"
       >
         <NavLink
-          to={ROUTES.landing}
+          to="/"
           aria-label="Landing"
           className={({ isActive }) =>
             isActive ? defaultLinkStyle + " bg-secondary/50" : defaultLinkStyle
@@ -75,7 +74,7 @@ export const Sidebar = () => {
         data-tip="About page"
       >
         <NavLink
-          to={ROUTES.about}
+          to="/about"
           aria-label="About"
           className={({ isActive }) =>
             isActive ? defaultLinkStyle + " bg-secondary/50" : defaultLinkStyle
@@ -91,7 +90,7 @@ export const Sidebar = () => {
         data-tip="Projects page"
       >
         <NavLink
-          to={ROUTES.projects}
+          to="/projects"
           aria-label="Projects"
           className={({ isActive }) =>
             isActive ? defaultLinkStyle + " bg-secondary/50" : defaultLinkStyle

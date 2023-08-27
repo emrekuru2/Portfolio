@@ -7,10 +7,12 @@ import MySQL from "./svg/MySQL.svg";
 import PHP from "./svg/PHP.svg";
 import TypeScript from "./svg/TypeScript.svg";
 import Avatar from "./img/Avatar.jpg";
+import ClusterJS from "./img/Cluster_JS.png";
 
 export const LocalAssets = {
   Images: {
     Avatar,
+    ClusterJS,
   },
   Icons: {
     React,
