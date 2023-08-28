@@ -8,11 +8,19 @@ import PHP from "./svg/PHP.svg";
 import TypeScript from "./svg/TypeScript.svg";
 import Avatar from "./img/Avatar.jpg";
 import ClusterJS from "./img/Cluster_JS.png";
+import NSCA from "./img/NSCA.png";
+import EMR from "./img/EMR.png";
+import Efes from "./img/Efes.png";
+import Dashboard from "./img/Dashboard.jpeg";
 
 export const LocalAssets = {
   Images: {
     Avatar,
     ClusterJS,
+    NSCA,
+    EMR,
+    Efes,
+    Dashboard,
   },
   Icons: {
     React,
