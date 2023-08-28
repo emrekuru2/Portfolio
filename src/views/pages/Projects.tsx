@@ -6,7 +6,7 @@ export const Projects = () => {
     <div className="prose mx-auto my-8 w-full text-center md:prose-lg lg:prose-xl lg:min-w-[75%]">
       <h1>Featured Projects</h1>
       <hr />
-      <section className="flex flex-col items-center gap-20 px-4 lg:px-28">
+      <section className="flex flex-col items-center gap-20 overflow-x-hidden px-4 lg:px-28">
         <Reveal axis="x" delay={0.75}>
           <Project
             img={LocalAssets.Images.ClusterJS}
@@ -43,7 +43,7 @@ export const Projects = () => {
                 name: "Github",
               },
             ]}
-            tools={["PHP", "CodeIgniter 4", "Bootstrap", "MySQL"]}
+            tools={["PHP", "CodeIgniter 4", "Bootstrap"]}
             title="Nova Scotia Cricket Association"
             opposite
           >
@@ -110,7 +110,7 @@ export const Projects = () => {
                 name: "Github",
               },
             ]}
-            tools={["JavaScript", "React", "Firebase", "Material UI"]}
+            tools={["JavaScript", "React", "Firebase"]}
             title="Student Dashboard"
           >
             <p>
