@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom";
 export const AppLayout = () => {
   const axis = window.innerWidth <= 640 ? "x" : "y";
   return (
-    <div className="no-scrollbar flex h-screen flex-col items-center overflow-auto bg-neutral px-4 pb-4 pt-2 lg:flex-row lg:py-4 lg:pl-2 lg:pr-4">
+    <div className="no-scrollbar flex h-screen flex-col items-center overflow-auto bg-neutral px-2 pb-2 pt-0 lg:flex-row lg:py-2 lg:pl-0 lg:pr-2">
       <div className="fixed z-10 flex h-20 items-center justify-center lg:h-full">
         <Sidebar />
       </div>

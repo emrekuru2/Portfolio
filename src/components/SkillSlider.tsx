@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { LocalAssets } from "../assets";
+import { ICONS } from "../assets";
 
 type BadgeProps = {
   icon: string;
@@ -38,50 +38,34 @@ const TechStack = (props: StackProps) => {
         ease: "linear",
       }}
     >
-      <TechBadge
-        icon={LocalAssets.Icons.React}
-        name="React.js"
-        url="https://react.dev/"
-      />
+      <TechBadge icon={ICONS.React} name="React.js" url="https://react.dev/" />
       <div className="divider divider-horizontal"></div>
       <TechBadge
-        icon={LocalAssets.Icons.Angular}
+        icon={ICONS.Angular}
         name="Angular"
         url="https://angular.io/"
       />
       <div className="divider divider-horizontal"></div>
       <TechBadge
-        icon={LocalAssets.Icons.Java}
+        icon={ICONS.Java}
         name="Java"
         url="https://www.oracle.com/ca-en/java/"
       />
       <div className="divider divider-horizontal"></div>
       <TechBadge
-        icon={LocalAssets.Icons.Python}
+        icon={ICONS.Python}
         name="Python"
         url="https://www.python.org/"
       />
       <div className="divider divider-horizontal"></div>
-      <TechBadge
-        icon={LocalAssets.Icons.MySQL}
-        name="MySQL"
-        url="https://www.mysql.com/"
-      />
+      <TechBadge icon={ICONS.MySQL} name="MySQL" url="https://www.mysql.com/" />
+      <div className="divider divider-horizontal"></div>
+      <TechBadge icon={ICONS.Cpp} name="C++" url="https://isocpp.org/" />
+      <div className="divider divider-horizontal"></div>
+      <TechBadge icon={ICONS.PHP} name="PHP" url="https://www.php.net/" />
       <div className="divider divider-horizontal"></div>
       <TechBadge
-        icon={LocalAssets.Icons.Cpp}
-        name="C++"
-        url="https://isocpp.org/"
-      />
-      <div className="divider divider-horizontal"></div>
-      <TechBadge
-        icon={LocalAssets.Icons.PHP}
-        name="PHP"
-        url="https://www.php.net/"
-      />
-      <div className="divider divider-horizontal"></div>
-      <TechBadge
-        icon={LocalAssets.Icons.TypeScript}
+        icon={ICONS.TypeScript}
         name="Typescript"
         url="https://www.typescriptlang.org/"
       />

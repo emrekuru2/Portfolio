@@ -1,4 +1,4 @@
-import { LocalAssets } from "../../assets";
+import { IMAGES } from "../../assets";
 import { Project, Reveal } from "../../components";
 
 export const Projects = () => {
@@ -9,7 +9,7 @@ export const Projects = () => {
       <section className="flex flex-col items-center gap-20 overflow-x-hidden px-4 lg:px-28">
         <Reveal axis="x" delay={0.75}>
           <Project
-            img={LocalAssets.Images.ClusterJS}
+            img={IMAGES.ClusterJS}
             links={[
               {
                 url: "https://kuru-emre.github.io/Cluster_JS",
@@ -32,7 +32,7 @@ export const Projects = () => {
         </Reveal>
         <Reveal axis="x" delay={0.75} changeDirection>
           <Project
-            img={LocalAssets.Images.NSCA}
+            img={IMAGES.NSCA}
             links={[
               {
                 url: "https://test.cricketnovascotia.ca",
@@ -57,7 +57,7 @@ export const Projects = () => {
         </Reveal>
         <Reveal axis="x" delay={0.5}>
           <Project
-            img={LocalAssets.Images.EMR}
+            img={IMAGES.EMR}
             links={[
               { url: "https://emrlogistic.com/", name: "Website" },
               {
@@ -78,7 +78,7 @@ export const Projects = () => {
         </Reveal>
         <Reveal axis="x" delay={0.5} changeDirection>
           <Project
-            img={LocalAssets.Images.Efes}
+            img={IMAGES.Efes}
             links={[
               { url: "https://efesturkish.com/", name: "Website" },
               {
@@ -99,7 +99,7 @@ export const Projects = () => {
         </Reveal>
         <Reveal axis="x" delay={0.5}>
           <Project
-            img={LocalAssets.Images.Dashboard}
+            img={IMAGES.Dashboard}
             links={[
               {
                 url: "https://react-a0b29.web.app/",

@@ -1,5 +1,5 @@
 import { Hero, SkillSlider } from "../../components";
-import { LocalAssets } from "../../assets";
+import { IMAGES } from "../../assets";
 import { Link } from "react-router-dom";
 
 export const Landing = () => {
@@ -13,12 +13,12 @@ export const Landing = () => {
         <div className="flex flex-col items-center gap-8 px-4 lg:flex-row lg:gap-12 lg:px-36">
           <div className="not-prose avatar">
             <div className="h-32 w-32 rounded-full ring ring-primary ring-offset-8 ring-offset-base-100 lg:h-72 lg:w-72">
-              <img src={LocalAssets.Images.Avatar} />
+              <img src={IMAGES.Avatar} />
             </div>
           </div>
           <div>
             <h1>About Me</h1>
-            <p>
+            <p className="text-justify">
               Hey fellow tech enthusiasts! I'm here, with a burning passion that
               has been nurtured in the evolving world of technology. For me
               coding is like an art form where every line of code represents my
