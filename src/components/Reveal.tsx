@@ -6,6 +6,7 @@ type RevealProps = {
   delay?: number;
   axis?: "x" | "y";
   changeDirection?: boolean;
+  className?: "w-fit" | string;
 };
 
 export const Reveal = ({
@@ -13,6 +14,7 @@ export const Reveal = ({
   delay = 0,
   axis = "y",
   changeDirection = false,
+  className = "w-fit",
 }: RevealProps) => {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true });
@@ -26,7 +28,7 @@ export const Reveal = ({
 
   return (
     <motion.div
-      className="w-fit"
+      className={className}
       ref={ref}
       variants={{
         hidden: { opacity: 0, [axis]: changeDirection ? -100 : 100 },
