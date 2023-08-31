@@ -9,8 +9,9 @@ import { TIMELINE } from "../assets";
 const Timeline = () => {
   return (
     <VerticalTimeline lineColor="hsl(var(--a))">
-      {TIMELINE.map((event) => (
+      {TIMELINE.map((event, index) => (
         <VerticalTimelineElement
+          key={`timeline_${index}`}
           dateClassName="text-accent"
           date={event.date}
           iconClassName="bg-primary border-4 border-accent shadow-none"
@@ -25,8 +26,8 @@ const Timeline = () => {
           <h5 className="text-primary">@ {event.company}</h5>
           <hr className="!my-1" />
           <ul>
-            {event.desc?.map((desc) => (
-              <li>
+            {event.desc?.map((desc, index) => (
+              <li key={`desc_${index}`}>
                 <p>{desc}</p>
               </li>
             ))}

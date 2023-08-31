@@ -9,7 +9,11 @@ export const About = () => {
       <hr />
       <div className="mx-auto grid grid-cols-1 gap-4 lg:grid-cols-2 lg:px-28">
         {SKILLS.map((skill, index) => (
-          <Reveal delay={0.25 * index} className="w-full">
+          <Reveal
+            key={`skill_${index}`}
+            delay={0.25 * index}
+            className="w-full"
+          >
             <div className="flex h-16 w-full items-center rounded-xl bg-base-300 px-4 shadow-lg">
               <img
                 src={skill.img}
