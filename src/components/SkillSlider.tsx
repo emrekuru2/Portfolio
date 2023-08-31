@@ -19,7 +19,11 @@ const TechBadge = (props: BadgeProps) => {
       href={props.url}
       className="btn btn-sm h-12 w-20 lg:btn-lg lg:w-52"
     >
-      <img src={props.icon} className="m-0 h-10 w-10 p-1 lg:m-0" />
+      <img
+        src={props.icon}
+        className="m-0 h-10 w-10 p-1 lg:m-0"
+        alt="Tech Icon"
+      />
       <p className="hidden lg:block">{props.name}</p>
     </a>
   );

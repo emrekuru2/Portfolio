@@ -13,7 +13,7 @@ export const Landing = () => {
         <div className="flex flex-col items-center gap-8 px-4 lg:flex-row lg:gap-12 lg:px-36">
           <div className="not-prose avatar">
             <div className="h-32 w-32 rounded-full ring ring-primary ring-offset-8 ring-offset-base-100 lg:h-72 lg:w-72">
-              <img src={IMAGES.Avatar} />
+              <img src={IMAGES.Avatar} alt="Profile Image" />
             </div>
           </div>
           <div>

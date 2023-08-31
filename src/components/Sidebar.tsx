@@ -46,7 +46,11 @@ export const Sidebar = () => {
           className={`swap swap-rotate ${defaultLinkStyle}`}
           aria-label="theme-switch"
         >
-          <input onClick={() => handleThemeChange()} type="checkbox" />
+          <input
+            onClick={() => handleThemeChange()}
+            type="checkbox"
+            id="theme-switch"
+          />
           <span className="swap-on h-10 w-10 p-2">
             <FaMoon size={"100%"} />
           </span>

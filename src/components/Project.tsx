@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { Fragment, ReactNode } from "react";
 
 type ProjectProps = {
   img: string;
@@ -31,17 +31,20 @@ export const Project = (props: ProjectProps) => {
         <div className={`flex flex-col items-center gap-5 ${itemDirection}`}>
           <div className="flex">
             {props.links.map((link, index) => (
-              <>
+              <Fragment key={`link_${index}`}>
                 <a href={link.url}>{link.name}</a>
                 {index !== props.links.length - 1 && (
                   <div className="divider divider-horizontal"></div>
                 )}
-              </>
+              </Fragment>
             ))}
           </div>
           <div className="flex gap-4">
-            {props.tools.map((tool) => (
-              <div className="badge badge-primary badge-lg p-4 text-xs lg:text-base">
+            {props.tools.map((tool, index) => (
+              <div
+                key={`badge_${index}`}
+                className="badge badge-primary badge-lg p-4 text-xs lg:text-base"
+              >
                 {tool}
               </div>
             ))}
