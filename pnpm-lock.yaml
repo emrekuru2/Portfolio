@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   framer-motion:
-    specifier: ^10.16.1
-    version: 10.16.1(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^10.16.3
+    version: 10.16.3(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -1208,8 +1208,8 @@ packages:
     resolution: {integrity: sha512-btalnXjFelOv2cy86KzHWhUuMb622/AD8ce/MCH9C36xe7QRXjJZA+19fP+G5LT0fdRcbOHErMI3SPM11ZaVDg==}
     dev: true
 
-  /framer-motion@10.16.1(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-K6TXr5mZtitC/dxQCBdg7xzdN0d5IAIrlaqCPKtIQVdzVPGC0qBuJKXggHX1vjnP5gPOFwB1KbCCTWcnFc3kWg==}
+  /framer-motion@10.16.3(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-1OMs6wY964hX8YjiCeYQlgrZDbkKvZztnynTUgUZjdzq2au6PZUsodmUY6GAudUgImrWqTrtpSwMbi1ETmIx4A==}
     peerDependencies:
       react: ^18.0.0
       react-dom: ^18.0.0
