@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ICONS } from "../assets";
+import { ICONS } from "@assets";
 
 type BadgeProps = {
   icon: string;
@@ -78,7 +78,7 @@ const TechStack = (props: StackProps) => {
   );
 };
 
-export const SkillSlider = () => {
+const SkillSlider = () => {
   return (
     <section className="h-20 overflow-hidden rounded-full">
       <div className="relative flex h-full items-center ">
@@ -88,3 +88,5 @@ export const SkillSlider = () => {
     </section>
   );
 };
+
+export default SkillSlider;

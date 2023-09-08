@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export const NotFound = () => {
+const NotFound = () => {
   return (
     <div className="hero h-full">
       <div className="hero-content text-center">
@@ -17,3 +17,5 @@ export const NotFound = () => {
     </div>
   );
 };
+
+export default NotFound;

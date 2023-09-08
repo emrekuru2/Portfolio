@@ -1,8 +1,8 @@
-import { Sidebar, Footer } from "../components";
+import { Sidebar, Footer } from "@components";
 import { motion } from "framer-motion";
 import { Outlet } from "react-router-dom";
 
-export const AppLayout = () => {
+const AppLayout = () => {
   const axis = window.innerWidth <= 640 ? "x" : "y";
   return (
     <div className="no-scrollbar flex h-screen flex-col items-center overflow-auto bg-neutral px-2 pb-2 pt-0 lg:flex-row lg:py-2 lg:pl-0 lg:pr-2">
@@ -21,3 +21,5 @@ export const AppLayout = () => {
     </div>
   );
 };
+
+export default AppLayout;

@@ -12,6 +12,9 @@ import NSCA from "./img/NSCA.png";
 import EMR from "./img/EMR.png";
 import Efes from "./img/Efes.png";
 import Dashboard from "./img/Dashboard.jpeg";
+import Flag_US from "./img/United_States.png";
+import Flag_FR from "./img/France.png";
+import Flag_TR from "./img/Turkey.png";
 import { MdWork, MdSchool } from "react-icons/md";
 import ResumeFile from "./Resume.pdf";
 
@@ -37,6 +40,12 @@ export const SKILLS = [
   { img: PHP, name: "PHP", level: "Intermediate", years: 3 },
   { img: MySQL, name: "MySQL", level: "Intermediate", years: 3 },
   { img: Angular, name: "Angular", level: "Beginner", years: 1 },
+];
+
+export const LANGS = [
+  { name: "English", flag: Flag_US, level: "Native" },
+  { name: "French", flag: Flag_FR, level: "Intermediate" },
+  { name: "Turkish", flag: Flag_TR, level: "Native" },
 ];
 
 export const TIMELINE = [

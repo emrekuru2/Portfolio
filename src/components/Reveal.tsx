@@ -9,7 +9,7 @@ type RevealProps = {
   className?: "w-fit" | string;
 };
 
-export const Reveal = ({
+const Reveal = ({
   children,
   delay = 0,
   axis = "y",
@@ -42,3 +42,5 @@ export const Reveal = ({
     </motion.div>
   );
 };
+
+export default Reveal;

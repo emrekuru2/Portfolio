@@ -1,11 +1,10 @@
-import { IMAGES } from "../../assets";
-import { Project, Reveal } from "../../components";
+import { IMAGES } from "@assets";
+import { Project, Reveal } from "@components";
 
-export const Projects = () => {
+const Projects = () => {
   return (
     <div className="prose mx-auto my-8 w-full text-center md:prose-lg lg:prose-xl lg:min-w-[75%]">
       <h1>Featured Projects</h1>
-      <hr />
       <section className="flex flex-col items-center gap-20 overflow-x-hidden px-4 lg:px-28">
         <Reveal axis="x" delay={0.75}>
           <Project
@@ -126,3 +125,5 @@ export const Projects = () => {
     </div>
   );
 };
+
+export default Projects;

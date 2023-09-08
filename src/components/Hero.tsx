@@ -1,7 +1,7 @@
 import Typed from "react-typed";
-import { Reveal } from ".";
+import { Reveal } from "@components";
 
-export const Hero = () => {
+const Hero = () => {
   return (
     <header className="flex h-60 flex-col items-center justify-center rounded bg-gradient-radial from-primary/25 from-20% to-base-300 to-75% shadow-xl lg:h-96">
       <Reveal delay={0.25}>
@@ -25,3 +25,5 @@ export const Hero = () => {
     </header>
   );
 };
+
+export default Hero;

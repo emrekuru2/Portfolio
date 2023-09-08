@@ -8,12 +8,12 @@ import {
   FaRegFileLines,
 } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
-import { Resume } from "../assets";
+import { Resume } from "@assets";
 
 const defaultLinkStyle =
   "btn btn-circle lg:btn-lg border-4 border-primary/50 hover:bg-primary-focus/75";
 
-export const Sidebar = () => {
+const Sidebar = () => {
   const html = document.documentElement;
 
   useEffect(() => {
@@ -126,3 +126,5 @@ export const Sidebar = () => {
     </div>
   );
 };
+
+export default Sidebar;

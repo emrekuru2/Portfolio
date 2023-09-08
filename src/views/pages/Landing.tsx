@@ -1,8 +1,8 @@
-import { Hero, SkillSlider } from "../../components";
-import { IMAGES } from "../../assets";
+import { Hero, SkillSlider } from "@components";
+import { IMAGES } from "@assets";
 import { Link } from "react-router-dom";
 
-export const Landing = () => {
+const Landing = () => {
   return (
     <>
       <Hero />
@@ -42,3 +42,5 @@ export const Landing = () => {
     </>
   );
 };
+
+export default Landing;
