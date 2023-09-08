@@ -1,7 +1,7 @@
 import { IconContext } from "react-icons";
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa6";
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <footer className="footer mx-auto flex h-auto flex-col items-center p-2 lg:w-[75%] lg:flex-row">
       <div className="lg:grow">
@@ -28,3 +28,5 @@ export const Footer = () => {
     </footer>
   );
 };
+
+export default Footer;

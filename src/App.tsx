@@ -1,6 +1,6 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-import { AppLayout, Pages } from "./views";
+import { AppLayout, Pages } from "@views";
 
 const App = () => {
   const location = useLocation();

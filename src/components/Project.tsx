@@ -9,7 +9,7 @@ type ProjectProps = {
   opposite?: boolean;
 };
 
-export const Project = (props: ProjectProps) => {
+const Project = (props: ProjectProps) => {
   const textDirection = props.opposite ? "lg:text-left" : "lg:text-right";
   const flexDirection = props.opposite ? "lg:flex-row-reverse" : "lg:flex-row";
   const itemDirection = props.opposite ? "lg:items-start" : "lg:items-end";

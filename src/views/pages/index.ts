@@ -1,4 +1,4 @@
-export { About } from "./About";
-export { Landing } from "./Landing";
-export { Projects } from "./Projects";
-export { NotFound } from "./NotFound";
+export { default as About } from "./About";
+export { default as Landing } from "./Landing";
+export { default as Projects } from "./Projects";
+export { default as NotFound } from "./NotFound";
