@@ -9,6 +9,7 @@ import TypeScript from "./svg/TypeScript.svg";
 import Avatar from "./img/Avatar.jpg";
 import ClusterJS from "./img/Cluster_JS.png";
 import NSCA from "./img/NSCA.png";
+import CourseHive from "./img/CourseHive.png";
 import EMR from "./img/EMR.png";
 import Efes from "./img/Efes.png";
 import Dashboard from "./img/Dashboard.jpeg";
@@ -28,7 +29,15 @@ export const ICONS = {
   PHP,
   TypeScript,
 };
-export const IMAGES = { Avatar, ClusterJS, NSCA, EMR, Efes, Dashboard };
+export const IMAGES = {
+  Avatar,
+  ClusterJS,
+  NSCA,
+  EMR,
+  Efes,
+  Dashboard,
+  CourseHive,
+};
 export const Resume = ResumeFile;
 
 export const SKILLS = [
