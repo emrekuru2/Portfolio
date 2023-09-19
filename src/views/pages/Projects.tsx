@@ -48,9 +48,9 @@ const Projects = () => {
           >
             <p>
               This project has been meticulously reimagined and migrated from
-              vanilla PHP to CodeIgniter 4. It boasts a comprehensive admin
-              panel with all the features necessary to manage and edit
-              application data and user profiles.
+              vanilla PHP to MVC based architecture using CodeIgniter 4. It
+              boasts a comprehensive admin panel with all the features necessary
+              to manage and edit application data and user profiles.
             </p>
           </Project>
         </Reveal>
