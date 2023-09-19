@@ -72,10 +72,11 @@ export const TIMELINE = [
     location: "Halifax, CA",
     icon: MdWork,
     desc: [
-      "Engaged in direct and effective client communication, ensuring a clear understanding of their requirements and objectives.",
-      "Managed to create and deploy a website using Wordpress and custom PHP code as well as configured a fully functional online ordering system for a restauran.",
-      "Developed and deployed a custom website for a yatch business using the Bootsrap framework and Laravel Framework which overally increased the business online presence.",
-      "Kept a well organized product backlog and performed acceptance testing on behalf of the clients.",
+      "Worked and collaborated with two business clients simultaneously.",
+      "Engaged in 1-on-1 product meetings while ensuring a clear understanding of the clients' vision and goals.",
+      "Created and deployed a Wordpress website that initiated the client's online presence and rapidly boosted their sales by enabling online orders and reservations.",
+      "Developed and deployed a business website for a yacht company using the Bootstrap and Laravel frameworks, significantly enhancing the business's online presence.",
+      "Successfully delivered an MVP on time to gather rapid feedback from the clients.",
     ],
   },
   {
@@ -85,8 +86,9 @@ export const TIMELINE = [
     location: "Halifax, CA",
     icon: MdWork,
     desc: [
-      "Utilized AutoCAD software to interpret and understand architectural plans while fostering seamless communication and collaboration with design and engineering teams.",
-      "Skillfully managed and organized construction material data using Excel and VBA which helped enhancing data clarity and optimizing project processes.",
+      "Utilized Excel to streamline the material data management, effectively enhancing data clarity, and optimizing project processes.",
+      "Implemented an ODBC driver to seamlessly connect Excel spreadsheets to a relational database, enabling efficient query execution and reducing time and complexity.",
+      "Managed daily event schedulers in MySQL to automate end-of-day inventory checks.",
     ],
   },
   {
@@ -96,9 +98,9 @@ export const TIMELINE = [
     location: "Izmir, TR",
     icon: MdWork,
     desc: [
-      "Designed, built, and maintained a student management web application by using JavaScript libraries such as React.JS for front-end development and Redux for global application state management.",
-      "Used Google Firebase's Firestore database platform which helped to easily implement and organize application data.",
-      "Performed a project closing presentation and code analysis for the project director and developers.",
+      "Help designing and implementing web applications in a team of 3 using JavaScript libraries such as React.js for front-end development and Redux for global application state management.",
+      "Used Cloud Firestore and the Firebase Authentication platform to manage client data, reducing the implementation time for the entire project significantly.",
+      "Performed sprint reviews and code analysis with the project director and developers.",
     ],
   },
   {
@@ -108,8 +110,9 @@ export const TIMELINE = [
     location: "Izmir, TR",
     icon: MdWork,
     desc: [
-      "Developed HTML and JavaScript code snippets for the developer team's reuse throughout the project.",
-      "Helped documentation and performed pair programming",
+      "Contributed developing custom ES6 JavaScript snippets for reuse by the developer team throughout the project, eliminatin frequent code repetition and reducing time.",
+      "Assisted the project team with the documentation process and engaged in pair programming.",
+      "Collaborated with an agile team and used Kanban to prioritize requirements.",
     ],
   },
   {
