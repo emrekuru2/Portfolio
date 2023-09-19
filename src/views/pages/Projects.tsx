@@ -6,7 +6,7 @@ const Projects = () => {
     <div className="prose mx-auto my-8 w-full text-center md:prose-lg lg:prose-xl lg:min-w-[75%]">
       <h1>Featured Projects</h1>
       <section className="flex flex-col items-center gap-20 overflow-x-hidden px-4 lg:px-28">
-        <Reveal axis="x" delay={0.75}>
+        <Reveal axis="x" delay={0.5}>
           <Project
             img={IMAGES.ClusterJS}
             links={[
@@ -19,7 +19,7 @@ const Projects = () => {
                 name: "Github",
               },
             ]}
-            tools={["Typescript", "React", "Material UI"]}
+            tools={["Typescript", "React", "Material UI", "Redux"]}
             title="Cluster_JS"
           >
             <p>
@@ -29,7 +29,7 @@ const Projects = () => {
             </p>
           </Project>
         </Reveal>
-        <Reveal axis="x" delay={0.75} changeDirection>
+        <Reveal axis="x" delay={0.5} changeDirection>
           <Project
             img={IMAGES.NSCA}
             links={[
@@ -42,7 +42,7 @@ const Projects = () => {
                 name: "Github",
               },
             ]}
-            tools={["PHP", "CodeIgniter 4", "Bootstrap"]}
+            tools={["PHP", "CodeIgniter 4", "Bootstrap", "MySQL"]}
             title="Nova Scotia Cricket Association"
             opposite
           >
@@ -56,6 +56,28 @@ const Projects = () => {
         </Reveal>
         <Reveal axis="x" delay={0.5}>
           <Project
+            img={IMAGES.CourseHive}
+            links={[
+              {
+                url: "https://coursehive.vercel.app/",
+                name: "Website",
+              },
+              {
+                url: "https://github.com/kuru-emre/CourseHive",
+                name: "Github",
+              },
+            ]}
+            tools={["Node", "React", "TypeScript", "Express", "MongoDB"]}
+            title="CourseHive"
+          >
+            <p>
+              A full-stack Node.js application for management and creation of
+              online classes, with authentication for teachers and students.
+            </p>
+          </Project>
+        </Reveal>
+        <Reveal axis="x" delay={0.5} changeDirection>
+          <Project
             img={IMAGES.EMR}
             links={[
               { url: "https://emrlogistic.com/", name: "Website" },
@@ -66,6 +88,7 @@ const Projects = () => {
             ]}
             tools={["PHP", "Laravel", "Bootstrap"]}
             title="EMR Logistic"
+            opposite
           >
             <p>
               A website designed and implemented for EMR Logistic company. Its
@@ -75,7 +98,7 @@ const Projects = () => {
             </p>
           </Project>
         </Reveal>
-        <Reveal axis="x" delay={0.5} changeDirection>
+        <Reveal axis="x" delay={0.5}>
           <Project
             img={IMAGES.Efes}
             links={[
@@ -87,7 +110,6 @@ const Projects = () => {
             ]}
             tools={["PHP", "Wordpress"]}
             title="Efes Turkish Cuisine"
-            opposite
           >
             <p>
               A WordPress website implemented to showcase all available menu
@@ -96,7 +118,7 @@ const Projects = () => {
             </p>
           </Project>
         </Reveal>
-        <Reveal axis="x" delay={0.5}>
+        <Reveal axis="x" delay={0.5} changeDirection>
           <Project
             img={IMAGES.Dashboard}
             links={[
@@ -109,8 +131,9 @@ const Projects = () => {
                 name: "Github",
               },
             ]}
-            tools={["JavaScript", "React", "Firebase"]}
+            tools={["JavaScript", "React", "Firebase", "Material UI"]}
             title="Student Dashboard"
+            opposite
           >
             <p>
               This project was crafted with students in mind, offering a dynamic
