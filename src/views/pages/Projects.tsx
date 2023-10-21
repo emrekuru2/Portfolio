@@ -6,6 +6,28 @@ const Projects = () => {
     <div className="prose mx-auto my-8 w-full text-center md:prose-lg lg:prose-xl lg:min-w-[75%]">
       <h1>Featured Projects</h1>
       <section className="flex flex-col items-center gap-20 overflow-x-hidden px-4 lg:px-28">
+        <Reveal axis="x" delay={0.5} changeDirection>
+          <Project
+            img={IMAGES.Bace}
+            links={[
+              {
+                url: "https://bacecarpentry.ca",
+                name: "Website",
+              },
+            ]}
+            tools={["HTML", "CSS", "JavaScript", "JQuery"]}
+            title="Bace Carpentry"
+            opposite
+          >
+            <p>
+              Introducing the website developed for Bace Design and Carpentry
+              Services Limited - a showcase of their exquisite craftsmanship and
+              design expertise. Explore their portfolio, discover their
+              services, and experience the artistry that sets them apart in the
+              carpentry industry.
+            </p>
+          </Project>
+        </Reveal>
         <Reveal axis="x" delay={0.5}>
           <Project
             img={IMAGES.ClusterJS}
