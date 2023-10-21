@@ -12,6 +12,7 @@ import NSCA from "./img/NSCA.png";
 import CourseHive from "./img/CourseHive.png";
 import EMR from "./img/EMR.png";
 import Efes from "./img/Efes.png";
+import Bace from "./img/Bacecarpentry.jpg";
 import Dashboard from "./img/Dashboard.jpeg";
 import Flag_US from "./img/United_States.png";
 import Flag_FR from "./img/France.png";
@@ -37,15 +38,16 @@ export const IMAGES = {
   Efes,
   Dashboard,
   CourseHive,
+  Bace,
 };
 export const Resume = ResumeFile;
 
 export const SKILLS = [
-  { img: Java, name: "Java 8+", level: "Beginner", years: 2 },
+  { img: Java, name: "Java 8+", level: "Beginner", years: 3 },
   { img: React, name: "React.js", level: "Intermediate", years: 3 },
   { img: TypeScript, name: "TypeScript", level: "Intermediate", years: 3 },
   { img: Python, name: "Python", level: "Beginner", years: 2 },
-  { img: Cpp, name: "C++", level: "Beginner", years: 1 },
+  { img: Cpp, name: "C++", level: "Beginner", years: 2 },
   { img: PHP, name: "PHP", level: "Intermediate", years: 3 },
   { img: MySQL, name: "MySQL", level: "Intermediate", years: 3 },
   { img: Angular, name: "Angular", level: "Beginner", years: 1 },
@@ -59,7 +61,7 @@ export const LANGS = [
 
 export const TIMELINE = [
   {
-    date: "September 2019 - August 2023 ",
+    date: "September 2019 - September 2023 ",
     title: "Bachelor's of Computer Science",
     company: "Dalhousie University",
     location: "Halifax, CA",
@@ -74,7 +76,7 @@ export const TIMELINE = [
     desc: [
       "Worked and collaborated with two business clients simultaneously.",
       "Engaged in 1-on-1 product meetings while ensuring a clear understanding of the clients' vision and goals.",
-      "Created and deployed a Wordpress website that initiated the client's online presence and rapidly boosted their sales by enabling online orders and reservations.",
+      "Created and deployed a PHP website that initiated the client's online presence and rapidly boosted their sales by enabling online orders and reservations.",
       "Developed and deployed a business website for a yacht company using the Bootstrap and Laravel frameworks, significantly enhancing the business's online presence.",
       "Successfully delivered an MVP on time to gather rapid feedback from the clients.",
     ],
@@ -98,7 +100,7 @@ export const TIMELINE = [
     location: "Izmir, TR",
     icon: MdWork,
     desc: [
-      "Help designing and implementing web applications in a team of 3 using JavaScript libraries such as React.js for front-end development and Redux for global application state management.",
+      "Helped designing and implementing web applications in a team of 3 using JavaScript libraries such as React.js for front-end development and Redux for global application state management.",
       "Used Cloud Firestore and the Firebase Authentication platform to manage client data, reducing the implementation time for the entire project significantly.",
       "Performed sprint reviews and code analysis with the project director and developers.",
     ],

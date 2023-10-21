@@ -39,7 +39,7 @@ const Sidebar = () => {
   return (
     <div className="flex h-full items-center justify-evenly gap-2 rounded-full border-8 border-neutral bg-base-200 px-2 lg:h-[450px] lg:flex-col lg:gap-0">
       <div
-        className="tooltip-primary tooltip tooltip-bottom lg:tooltip-right"
+        className="tooltip tooltip-bottom tooltip-primary lg:tooltip-right"
         data-tip="Change Theme"
       >
         <label
@@ -60,7 +60,7 @@ const Sidebar = () => {
         </label>
       </div>
       <div
-        className="tooltip-primary tooltip tooltip-bottom lg:tooltip-right"
+        className="tooltip tooltip-bottom tooltip-primary lg:tooltip-right"
         data-tip="Landing page"
       >
         <NavLink
@@ -76,7 +76,7 @@ const Sidebar = () => {
         </NavLink>
       </div>
       <div
-        className="tooltip-primary tooltip tooltip-bottom lg:tooltip-right"
+        className="tooltip tooltip-bottom tooltip-primary lg:tooltip-right"
         data-tip="About page"
       >
         <NavLink
@@ -92,7 +92,7 @@ const Sidebar = () => {
         </NavLink>
       </div>
       <div
-        className="tooltip-primary tooltip tooltip-bottom lg:tooltip-right"
+        className="tooltip tooltip-bottom tooltip-primary lg:tooltip-right"
         data-tip="Projects page"
       >
         <NavLink
@@ -108,7 +108,7 @@ const Sidebar = () => {
         </NavLink>
       </div>
       <div
-        className="tooltip-primary tooltip tooltip-bottom lg:tooltip-right"
+        className="tooltip tooltip-bottom tooltip-primary lg:tooltip-right"
         data-tip="Download Resume"
       >
         <a
