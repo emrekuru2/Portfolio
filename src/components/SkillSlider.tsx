@@ -37,7 +37,7 @@ const TechStack = (props: StackProps) => {
         x: [props.x_start, props.x_end],
       }}
       transition={{
-        duration: 35,
+        duration: 20,
         repeat: Infinity,
         ease: "linear",
       }}
@@ -73,6 +73,8 @@ const TechStack = (props: StackProps) => {
         name="Typescript"
         url="https://www.typescriptlang.org/"
       />
+      <div className="divider divider-horizontal"></div>
+      <TechBadge icon={ICONS.Spring} name="Spring" url="https://spring.io/" />
       <div className="divider divider-horizontal"></div>
     </motion.div>
   );

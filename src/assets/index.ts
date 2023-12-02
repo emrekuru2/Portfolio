@@ -6,6 +6,8 @@ import Java from "./svg/Java.svg";
 import MySQL from "./svg/MySQL.svg";
 import PHP from "./svg/PHP.svg";
 import TypeScript from "./svg/TypeScript.svg";
+import Spring from "./svg/Spring.svg";
+import Laravel from "./svg/Laravel.svg";
 import Avatar from "./img/Avatar.jpg";
 import ClusterJS from "./img/Cluster_JS.png";
 import NSCA from "./img/NSCA.png";
@@ -29,7 +31,9 @@ export const ICONS = {
   MySQL,
   PHP,
   TypeScript,
+  Spring,
 };
+
 export const IMAGES = {
   Avatar,
   ClusterJS,
@@ -40,17 +44,23 @@ export const IMAGES = {
   CourseHive,
   Bace,
 };
+
 export const Resume = ResumeFile;
 
 export const SKILLS = [
   { img: Java, name: "Java 8+", level: "Beginner", years: 3 },
-  { img: React, name: "React.js", level: "Intermediate", years: 3 },
   { img: TypeScript, name: "TypeScript", level: "Intermediate", years: 3 },
   { img: Python, name: "Python", level: "Beginner", years: 2 },
   { img: Cpp, name: "C++", level: "Beginner", years: 2 },
   { img: PHP, name: "PHP", level: "Intermediate", years: 3 },
   { img: MySQL, name: "MySQL", level: "Intermediate", years: 3 },
-  { img: Angular, name: "Angular", level: "Beginner", years: 1 },
+];
+
+export const TOOLS = [
+  { img: Angular, name: "Angular", level: "Intermediate", years: 3 },
+  { img: React, name: "React.js", level: "Intermediate", years: 3 },
+  { img: Spring, name: "SpringBoot", level: "Beginner", years: 1 },
+  { img: Laravel, name: "Laravel", level: "Intermediate", years: 2 },
 ];
 
 export const LANGS = [
