@@ -19,6 +19,8 @@ import Dashboard from "./img/Dashboard.jpeg";
 import Flag_US from "./img/United_States.png";
 import Flag_FR from "./img/France.png";
 import Flag_TR from "./img/Turkey.png";
+import AtaPainting from "./img/AtaPainting.webp";
+import TSNS from "./img/tsns.png";
 import { MdWork, MdSchool } from "react-icons/md";
 import ResumeFile from "./Resume.pdf";
 
@@ -43,6 +45,8 @@ export const IMAGES = {
   Dashboard,
   CourseHive,
   Bace,
+  AtaPainting,
+  TSNS,
 };
 
 export const Resume = ResumeFile;

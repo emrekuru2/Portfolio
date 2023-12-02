@@ -8,6 +8,51 @@ const Projects = () => {
       <section className="flex flex-col items-center gap-20 overflow-x-hidden px-4 lg:px-28">
         <Reveal axis="x" delay={0.5} changeDirection>
           <Project
+            img={IMAGES.TSNS}
+            links={[
+              {
+                url: "https://www.tsns.ca",
+                name: "Website",
+              },
+            ]}
+            tools={["Google Admin Console", "Custom HTML Snippets"]}
+            title="Turkish Society of Nova Scotia"
+            opposite
+          >
+            <p>
+              An interactive platform I've crafted for the Turkish Society of
+              Nova Scotia using Google Workspace Admin Tools. This website
+              provides a collaborative space where members can seamlessly handle
+              and edit the content of the website.
+            </p>
+          </Project>
+        </Reveal>
+        <Reveal axis="x" delay={0.5}>
+          <Project
+            img={IMAGES.AtaPainting}
+            links={[
+              {
+                url: "https://bacecarpentry.ca",
+                name: "Website",
+              },
+              {
+                url: "https://github.com/kuru-emre/atapainting",
+                name: "Github",
+              },
+            ]}
+            tools={["HTML/PHP", "CSS/Bootstrap", "JavaScript", "JQuery"]}
+            title="Ata Painting"
+          >
+            <p>
+              Welcome to ATA Painting's showcase—where art meets expertise.
+              Explore their portfolio and services, curated within the website I
+              crafted, revealing the mastery that defines their distinct place
+              in the world of painting.
+            </p>
+          </Project>
+        </Reveal>
+        <Reveal axis="x" delay={0.5} changeDirection>
+          <Project
             img={IMAGES.Bace}
             links={[
               {
