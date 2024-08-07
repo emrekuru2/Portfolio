@@ -90,7 +90,7 @@ export const TIMELINE = [
             "Led web system projects, modernized legacy technologies, and developed full-stack web applications using popular web frameworks such as Laravel, and Next.js",
             "Implemented and configured IT systems, such as setting up cloud servers, managing databases, and integrating with existing systems.",
             "Diagnosed and resolved issues related to software applications, hardware, and network systems.",
-            "Documented technical specifications, managed project budgets and contracts, implemented Google Analytics and Mixpanel for business tracking, ensuring cost-effective solutions and client satisfaction."
+            "Documented technical specifications, managed project budgets and contracts, implemented Google Analytics and Mixpanel for business tracking, ensuring cost-effective solutions and client satisfaction.",
         ],
     },
     {
