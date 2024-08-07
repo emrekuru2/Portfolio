@@ -81,24 +81,24 @@ export const LANGS = [
 
 export const TIMELINE = [
     {
+        date: "October 2023 - Present",
+        title: "Systems Integration Developer",
+        company: "Independent Contractor",
+        location: "Halifax, CA",
+        icon: MdWork,
+        desc: [
+            "Led web system projects, modernized legacy technologies, and developed full-stack web applications using popular web frameworks such as Laravel, and Next.js",
+            "Implemented and configured IT systems, such as setting up cloud servers, managing databases, and integrating with existing systems.",
+            "Diagnosed and resolved issues related to software applications, hardware, and network systems.",
+            "Documented technical specifications, managed project budgets and contracts, implemented Google Analytics and Mixpanel for business tracking, ensuring cost-effective solutions and client satisfaction."
+        ],
+    },
+    {
         date: "September 2019 - September 2023 ",
         title: "Bachelor's of Applied Computer Science",
         company: "Dalhousie University",
         location: "Halifax, CA",
         icon: MdSchool,
-    },
-    {
-        date: "October 2023 - Present",
-        title: "Full-Stack Developer",
-        company: "Freelancer",
-        location: "Halifax, CA",
-        icon: MdWork,
-        desc: [
-            "Worked with 6+ business clients and engaged in 1-on-1 product meetings while providing efficient problem solving skills and ensuring a clear understanding of the clients vision and goals.",
-            "Developed full-stack web applications using PHP and JavaScript, leveraging popular frameworks such as Laravel andNext.js. Implemented API routes for authentication to ensure secure user interactions and streamline data managementprocesses.",
-            "Deployed the code base on PaaS such as Vercel and Google Cloud while adhering to prevalent SEO optimization practices and robust security measures, resulting in achieving online presence quicker",
-            "Consistently reached success in effectively managing time and workloads for all MVPs ahead of deadlines with the help ofAtlassian tool kit, and documented technical specifications and tutorials for the final products.",
-        ],
     },
     {
         date: "March 2021 - June 2021",
@@ -108,14 +108,14 @@ export const TIMELINE = [
         icon: MdWork,
         desc: [
             "Helped designing and implementing web applications in a team of 3 using JavaScript libraries such as React.js for front-end development and Redux for global application state management.",
-            "Used Cloud Firestore and the Firebase Authentication APIs to manage client data, reducing the backend implementationtime for the entire project more than 50%.",
+            "Used Cloud Firestore and the Firebase Authentication APIs to manage client data, reducing the backend implementation time for the entire project by 50%.",
             "Performed sprint reviews and code analysis with the project director and developers.",
         ],
     },
     {
-        date: "June 2019 - August 2019",
+        date: "June 2020 - August 2020",
         title: "Software Engineer Co-op",
-        company: "Planet Programming",
+        company: "Planet Yazilim",
         location: "Izmir, TR",
         icon: MdWork,
         desc: [
